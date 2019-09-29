@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+    <head>
+        <title>Form</title>
+        <meta charset="UTF-8">
+    </head>
+
+    <body>
+        <h1>Tell us about you</h1>
+
+        <form action="save.php" method="POST">
+            <div>
+                <label>Name:
+                    <input type="text" name="name">
+                </label>
+            </div>
+
+            <div>
+                <label>Age:</label>
+                <input type="radio" name="age">&lt;18
+                <input type="radio" name="age">19-35
+                <input type="radio" name="age">36-48
+                <input type="radio" name="age">&gt;49
+            </div>
+
+            <div>
+                <label>Profession:
+                    <input type="text" name="profession">
+                </label>
+            </div>
+
+            <div>
+                <label>Country:
+                    <select name="country">
+                        <option value="portugal" selected>Portugal</option>
+                        <option value="usa">USA</option>
+                        <option value="ul">UK</option>
+                        <option value="brazil">Brazil</option>
+                    </select>  
+                </label>       
+            </div>
+
+            <div>
+                <label>Interests:</label>
+                <input type="checkbox" name="interests" value="computers">Building Computers 
+                <input type="checkbox" name="interests" value="videogames">Playing Videogames 
+                <input type="checkbox" name="interests" value="music">Listening to music 
+                <input type="checkbox" name="interests" value="books">Reading books
+            </div>
+
+            <div>
+                <textarea name="find" rows="7" cols="50">How did you find out about us?</textarea>
+            </div>        
+            
+            <div>
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+
+    </body>
+
+</html>
