@@ -1,0 +1,17 @@
+body {
+    display: grid;
+    grid-column-end: span 2;
+}
+
+
+
+#menu ul {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+#menu ul li {
+    flex-grow: 1
+}
+
