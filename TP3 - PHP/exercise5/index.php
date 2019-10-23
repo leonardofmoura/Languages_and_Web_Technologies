@@ -1,6 +1,7 @@
 <?php
   include_once('database/list_news.php');
   include_once('templates/draw_new_headers.php');
+  include_once('templates/draw_news.php');
 ?>
 
 <!DOCTYPE html>
