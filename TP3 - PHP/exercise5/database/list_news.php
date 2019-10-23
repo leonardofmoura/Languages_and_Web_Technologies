@@ -11,7 +11,7 @@
         return $articles;
     }
 
-    function list_complete_new() {
+    function get_complete_new() {
         global $db;
 
         $stmt = $db->prepare('SELECT news.*, users.*, COUNT(comments.id) AS comments
@@ -23,9 +23,7 @@
         $stmt->execute();
         $articles = $stmt->fetchAll();
 
-        foreach($articles as $article) {
-            
-        }
+        return $articles;
     }
 ?>
 
