@@ -40,7 +40,7 @@
     </nav>
     <aside id="related">
       <?php 
-        $article = get_news_intro(); 
+        $articles = get_news_intro(); 
         draw_new_headers($articles);
       ?>
     </aside>
