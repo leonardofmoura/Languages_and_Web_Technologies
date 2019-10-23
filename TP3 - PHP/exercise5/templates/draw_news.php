@@ -12,7 +12,7 @@
                 <span class="author"><?= $article['name'] ?> </span>
                 <span class="tags">
                 <?php foreach($tags as $tag) { ?>
-                    <a href="index.html"><?= $tag ?></a>
+                    <a href="index.php"><?= $tag ?></a>
                 <?php } ?>
                 </span>
                 <span class="date"><?= date("d-m-Y H:i:s", substr($article['published'],0,10)) ?></span>

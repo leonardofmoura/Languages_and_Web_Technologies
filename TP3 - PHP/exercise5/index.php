@@ -18,8 +18,8 @@
   </head>
   <body>
     <header>
-      <h1><a href="index.html">Super Legit News</a></h1>
-      <h2><a href="index.html">Where fake news are born!</a></h2>
+      <h1><a href="index.php">Super Legit News</a></h1>
+      <h2><a href="index.php">Where fake news are born!</a></h2>
       <div id="signup">
         <a href="register.html">Register</a>
         <a href="login.html">Login</a>
