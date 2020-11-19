@@ -1,0 +1,65 @@
+.house-carousel {
+    width: 100%;
+    height: 30em;
+    background-color: var(--main-background);
+
+    display: flex;
+    justify-content: center;
+}
+
+.image-wrapper {
+    display: flex;
+    align-items: center;
+    width: 40em;
+}
+
+.house-image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.image-changer {
+    display: flex;
+    align-items: center;
+
+    font-size: 30px;
+    padding: 1em;
+
+    cursor: pointer;
+}
+
+.image-changer:hover {
+    background-color: var(--light-background);
+}
+
+.house-information {
+    padding: 1em;
+}
+
+.content-tabs {
+    list-style-type: none;
+    width: 100%;
+
+    display: flex;
+
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+
+    padding: 0;
+}
+
+.content-tabs li {
+    padding: 0.5em 1em;
+    border-right: 1px solid black;
+}
+
+.content-tabs li:hover {
+    background-color: var(--main-color);
+    color: white;
+    cursor: pointer;
+}
+
+.selected-tab {
+    border-bottom: 3px solid black;
+}

@@ -1,0 +1,74 @@
+    .filter-renderer {
+        margin: 1em auto 1em auto;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .filter-form {
+        display: flex;
+        margin: 0;
+    }
+    
+    .search-form-container {
+        padding: 0.5em;
+        display: flex;
+        border: 1px solid #aaa;
+        border-radius: 4px;
+        box-shadow: 0 0 3px #aaa;
+    }
+    
+    .search-field {
+        width: 35em;
+        padding: 0.5em;
+        border: 0px solid black;
+        border-radius: 5px 0 0 5px;
+        background-color: var(--main-background);
+    }
+    
+    .search-form-container .submit-button {
+        border-style: solid;
+        border-color: #aaa;
+        border-width: 0 0 0 1px;
+        cursor: pointer;
+        background-color: var(--main-background);
+        color: black;
+    }
+    
+    .houses-display {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+    }
+    
+    .house-card {
+        margin: 1em;
+        flex-basis: 20%;
+        min-width: 20%;
+        border-width: 0px;
+        border-color: #aaa;
+        border-style: solid;
+        border-radius: 10px;
+        box-shadow: 0 0px 6px rgba(0, 0, 0, 0.6);
+        overflow: hidden;
+        background-color: white;
+    }
+    
+    .card-thumbnail {
+        margin: 0 auto;
+        display: block;
+        background-image: url('../house.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 15em;
+        overflow: hidden;
+        transition: transform .5s ease;
+    }
+    
+    .card-thumbnail:hover {
+        transform: scale(1.2);
+    }
+    
+    .card-info {
+        padding: 0.5em;
+    }

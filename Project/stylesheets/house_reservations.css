@@ -1,0 +1,34 @@
+#reservations-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#reservations-table td, th {
+    padding: 1em;
+    border-top: 1px solid rgba(0,0,0,0.6);
+    border-bottom: 1px solid rgba(0,0,0,0.6);
+}
+
+#reservation-type-buttons {
+    margin: 0 1em;
+    display: flex;
+}
+
+#reservation-type-buttons a {
+    border-width: 0 1px;
+    border-style: solid;
+    border-color: gray;
+    cursor: pointer;
+}
+
+.tab-button-container {
+    padding: 1em;
+}
+
+.tab-button-container:hover {
+    background-color: gray;
+}
+
+#reservations-table .reservation:hover {
+    background-color: gray;
+}

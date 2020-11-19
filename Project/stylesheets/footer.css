@@ -1,0 +1,11 @@
+.site-footer{
+    background-color: var(--gray-lines);
+    padding: 1em;
+    margin-top: auto;
+    
+}
+
+
+.site-footer p{
+    color: var(#273c48);
+}

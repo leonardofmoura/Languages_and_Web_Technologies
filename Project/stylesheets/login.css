@@ -1,0 +1,41 @@
+.login-wrapper {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(1, 1, 1, 0.3);
+}
+
+.login-form-container {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+
+    opacity: 1;
+    padding: 1em;
+    background: white;
+
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #aaa;
+}
+
+.login-form {
+    margin: 0;
+}
+
+#login-error-label {
+    color: red;
+}
+#login-submit-button{
+    color: black;
+    border: 1px solid var(--gray-lines);
+
+}

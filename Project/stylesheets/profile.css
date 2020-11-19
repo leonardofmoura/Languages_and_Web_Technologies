@@ -1,0 +1,35 @@
+.profile-content {
+    display: grid;
+    padding: 1em;
+    grid-template-columns: 1fr 2fr;
+}
+
+.profile-picture-container {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    justify-self: center;
+}
+
+.profile-picture-container img {
+    height: 20em;
+    border-radius: 50%;
+    border: 2px solid var(--gray-lines);
+}
+
+.user-details {
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+    margin-left: 1em;
+}
+
+.houses-container {
+    padding: 1em;
+}
+
+.house-overview {
+    padding: 0.5em;
+
+    border: 1px solid black;
+
+}

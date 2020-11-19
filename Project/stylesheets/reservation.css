@@ -1,0 +1,14 @@
+#reservation-error-label {
+    color: red;
+}
+
+#reservation-form div {
+    display: block;
+    margin: 0.5rem;
+    padding: 1rem;
+}
+
+#reservation-form input[type="submit"] {
+    margin: 1.5rem;
+    padding: 0.5rem;
+}

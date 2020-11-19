@@ -1,0 +1,11 @@
+:root {
+    --green: #5fd96e;
+    --main-background: white;
+    --gray-lines: #e6e6e6;
+    --light-grey-background: #ddd;
+
+    /* Fonts */ 
+
+    --title-font: 'Roboto', sans-serif;
+    --content-font: 'Open Sans', sans-serif;
+}

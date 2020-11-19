@@ -1,0 +1,38 @@
+.dashboard-houses {
+    margin: 1em;
+}
+
+.dashboard-card {
+    margin: 1em 0;
+    padding: 0.5em;
+
+    box-shadow: 0 0 6px rgba(0,0,0,0.6);
+
+    border: 1px solid var(--gray-lines);
+    border-radius: 5px;
+}
+
+.dashboard-card:hover {
+    box-shadow: 0 0 6px var(--green);
+}
+
+.dashboard-card-main-info {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.dashboard-card-title {
+    margin: 0;
+    margin-top: 0.5em;
+    margin-right: 1em;
+}
+
+.dashboard-card-price {
+    margin-left: 1em;
+}
+
+.dashboard-card-address {
+    margin-top: 0;
+    color: gray;
+}

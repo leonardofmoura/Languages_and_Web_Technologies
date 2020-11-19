@@ -1,0 +1,8 @@
+#registration-form {
+    padding: 1em;
+}
+
+#registration-error-field {
+    display: none;
+    color: red;
+}
